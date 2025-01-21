@@ -1,0 +1,11 @@
+# Ignore Visual Studio temporary files
+.vs/
+*.vcxproj.user
+*.suo
+*.obj
+*.exe
+Debug/
+Release/
+x64/
+*.ilk
+*.log

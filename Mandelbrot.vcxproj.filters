@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Debug">
+      <UniqueIdentifier>{45f8e2a2-dedc-479e-8c1f-b4372a6f2041}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="freeglut">
+      <UniqueIdentifier>{26c05edf-c32d-4279-83be-60adf4012265}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="freeglut\bin">
+      <UniqueIdentifier>{d23e8d45-563c-42e2-94d8-b4ea3caaef79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="freeglut\include">
+      <UniqueIdentifier>{b4029209-fd88-40c7-aed4-e01fec65518e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="freeglut\lib">
+      <UniqueIdentifier>{f6202e21-0947-4cf1-a5cc-f7da931d7ff8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="freeglut\include\GL">
+      <UniqueIdentifier>{8976018a-ff9d-43a6-ae14-19598e1b297f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\freeglut\bin\x64\freeglut.dll">
+      <Filter>Debug</Filter>
+    </None>
+    <None Include="Mandelbrot.sln" />
+    <None Include="Mandelbrot.vcxproj" />
+    <None Include="C:\freeglut\bin\freeglut.dll">
+      <Filter>freeglut\bin</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\freeglut\include\GL\freeglut.h">
+      <Filter>freeglut\include\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\freeglut\include\GL\freeglut_ext.h">
+      <Filter>freeglut\include\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\freeglut\include\GL\freeglut_std.h">
+      <Filter>freeglut\include\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\freeglut\include\GL\glut.h">
+      <Filter>freeglut\include\GL</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="C:\freeglut\lib\x64\freeglut.lib">
+      <Filter>freeglut\lib</Filter>
+    </Library>
+  </ItemGroup>
+</Project>
